@@ -16,9 +16,9 @@ app.get('/',(request,response)=>{
 })
 
 app.get('/post/:postId',(request,response)=>{
-  //获取id
+  //获取内容 ID
   const { postId } = request.params
-  //过滤数据
+  //查找具体内容
   const res = data.filter(item=>item.id == postId)
 
   response.send(res)
