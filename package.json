@@ -1,0 +1,23 @@
+{
+  "name": "xb2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leo2085/xb2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leo2085/xb2/issues"
+  },
+  "homepage": "https://github.com/Leo2085/xb2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
